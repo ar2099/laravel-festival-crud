@@ -13,7 +13,10 @@ class LineupsController extends Controller
      */
     public function index()
     {
-        return view('lineups.index');
+
+        $data = config('lineup');
+
+        return view('pages.lineups.index', compact('data'));
     }
 
     /**
