@@ -8,5 +8,13 @@
 </head>
 <body>
 
+    <header>
+        @include('includes.header')
+    </header>
+
+    <main>
+        @yield('content')
+    </main>
+
 </body>
 </html>
