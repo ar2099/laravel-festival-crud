@@ -6,7 +6,7 @@
 
     <div width="80%" style="margin: 0 auto">
 
-            <a href="{{route('lineups.create', $data['id'])}}">Add group/singer</a>
+            <a href="{{route('lineups.create')}}">Add group/singer</a>
 
             <table>
                 <th>gruppo_musicale</th>
@@ -24,7 +24,7 @@
                             <td>{{$da['orario_esibizione']}}</td>
                         </tr>
                         <a href="{{route('lineups.show', $da->id)}}">View</a>
-                        <a href="{{route('lineups.edit', $da->id)}}">Modify</a>
+                        {{-- <a href="{{route('lineups.edit')}}">Modify</a> --}}
                         @empty
 
                         @endforelse
