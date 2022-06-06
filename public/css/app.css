@@ -1,3 +1,46 @@
-p {
-  color: red;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 22px;
+}
+
+body {
+  background-color: #00B4D8;
+}
+
+ul {
+  list-style: none;
+}
+ul a {
+  color: #90E0EF;
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  font-size: 1.5rem;
+  text-decoration: none;
+  cursor: pointer;
+  margin: 0 15px;
+  line-height: 80px;
+  transition: 0.2s;
+}
+ul a:hover {
+  color: #00B4D8;
+  transform: translateY(-5px);
+}
+
+.navbar {
+  height: 80px;
+  background: #03045E;
+  border-bottom: 2px solid #90E0EF;
+  display: flex;
+}
+.navbar img {
+  height: 80px;
+  margin: 0 30px;
+  cursor: pointer;
+}
+.navbar ul {
+  display: flex;
 }
