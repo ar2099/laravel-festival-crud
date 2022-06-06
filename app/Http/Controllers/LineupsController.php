@@ -13,7 +13,7 @@ class LineupsController extends Controller
      */
     public function index()
     {
-        //
+        return view('lineups.index');
     }
 
     /**
