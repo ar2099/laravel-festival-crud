@@ -19,7 +19,7 @@ class CreateLineupsTable extends Migration
             $table->string('traccia');
             $table->string('genere');
             $table->string('data_esibizione');
-            $table->time('orario_esibizione');
+            $table->string('orario_esibizione');
             $table->timestamps();
         });
     }

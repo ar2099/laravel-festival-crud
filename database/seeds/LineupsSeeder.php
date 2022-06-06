@@ -24,9 +24,7 @@ class LineupsSeeder extends Seeder
             $new_data->fill($da);
 
             $new_data->save();
-        }
-
-
+        };
 
     }
 }
