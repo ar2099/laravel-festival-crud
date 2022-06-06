@@ -26,7 +26,7 @@ class LineupsController extends Controller
      */
     public function create()
     {
-        //
+        return view('pages.lineups.create');
     }
 
     /**
