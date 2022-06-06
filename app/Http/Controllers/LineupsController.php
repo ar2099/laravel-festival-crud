@@ -46,9 +46,9 @@ class LineupsController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show(Lineup $lineup)
     {
-        //
+        return view('pages.lineups.show', compact('lineup'));
     }
 
     /**

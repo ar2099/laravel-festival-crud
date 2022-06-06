@@ -6,7 +6,7 @@
 
     <div width="80%" style="margin: 0 auto">
 
-            <a href="{{route('lineups.create', $data->id)}}">Add group/singer</a>
+            <a href="{{route('lineups.create', $data['id'])}}">Add group/singer</a>
 
             <table>
                 <th>gruppo_musicale</th>
