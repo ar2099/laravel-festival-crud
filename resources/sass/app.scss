@@ -1,4 +1,54 @@
-//
-p {
-    color: red;
+$color1: #03045E;
+$color2: #0077B6;
+$color3: #00B4D8;
+$color4: #90E0EF;
+$color5: #CAF0F8;
+$font1: 'Atkinson Hyperlegible', sans-serif;
+$font2: 'Aclonica', sans-serif;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 22px;
+}
+
+body {
+    background-color: $color3;
+}
+
+ul{
+    list-style: none;
+    a{
+        color: $color4;
+        font-family: $font1;
+        font-size: 1.5rem;
+        text-decoration: none;
+        cursor: pointer;
+        margin: 0 15px;
+        line-height: 80px;
+        transition: 0.2s;
+        &:hover{
+            color: $color3;
+            transform: translateY(-5px);
+        }
+    }
+}
+
+.navbar{
+    height: 80px;
+    background: $color1;
+    border-bottom: 2px solid $color4;
+    display: flex;
+    img{
+        height: 80px;
+        margin: 0 30px;
+        cursor: pointer;
+    }
+    ul{
+        display: flex;
+    }
 }
